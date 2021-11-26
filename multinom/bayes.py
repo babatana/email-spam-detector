@@ -1,6 +1,8 @@
 import pandas as pd
+import math
 
-sms_spam = pd.read_csv('../data/SMSSpamCollection', sep = '\t',header = None, names = ['Label', 'SMS'])
+# sms_spam = pd.read_csv('../data/SMSSpamCollection', sep = '\t',header = None, names = ['Label', 'SMS'])
+sms_spam = pd.read_csv('../data/SpamOrNotSpamReformatted.csv', sep = ',',header = None, names = ['Label', 'SMS'])
 
 print(sms_spam.shape)
 sms_spam.head()
@@ -35,17 +37,29 @@ training_set.head(3)
 training_set['SMS'] = training_set['SMS'].str.split()
 
 vocabulary = []
+fail_count = 0
 for sms in training_set['SMS']:
-	for word in sms:
-		vocabulary.append(word)
+	if sms == sms:
+		for word in sms:
+			vocabulary.append(word)
+	else:
+		fail_count += 1
+
+print("First fail count:", fail_count)
 
 vocabulary = list(set(vocabulary))
 
 word_counts_per_sms = {unique_word: [0] * len(training_set['SMS']) for unique_word in vocabulary}
 
+fail_count = 0
 for index, sms in enumerate(training_set['SMS']):
-	for word in sms:
-		word_counts_per_sms[word][index] += 1
+	if sms == sms:
+		for word in sms:
+			word_counts_per_sms[word][index] += 1
+	else:
+		fail_count += 1
+
+print("Second fail count:", fail_count)
 
 word_counts = pd.DataFrame(word_counts_per_sms)
 

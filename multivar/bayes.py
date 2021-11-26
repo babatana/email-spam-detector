@@ -1,5 +1,6 @@
 import pandas as pd
-df=pd.read_csv('../spam-filter-proj/data/original_multivar_dataset.csv')
+# df=pd.read_csv('../spam-filter-proj/data/original_multivar_dataset.csv')
+df=pd.read_csv('../data/SMSSpamCollectionReformatted.csv')
 df.head()
 
 import numpy as np
