@@ -1,0 +1,38 @@
+KeepIt yes no
+HasChocolate yes no
+HasNuts yes no
+Texture creamy chewy hard
+Size small medium large
+
+no no hard large yes
+yes no chewy small yes
+yes no creamy small yes
+yes no chewy small yes
+no yes hard large no 
+no no chewy medium yes
+no yes chewy large no 
+no yes creamy medium no 
+yes no hard large yes
+yes yes creamy large yes
+yes yes hard large yes
+yes yes chewy large yes
+no no hard large yes
+no yes chewy medium no 
+no yes hard small no 
+yes yes hard large yes
+no yes chewy medium no 
+no no hard small yes
+yes no chewy large yes
+no yes hard large no 
+yes yes creamy small no 
+no yes hard small no 
+yes no hard small yes
+no no hard medium yes
+yes yes creamy small no 
+no yes chewy medium no 
+no yes creamy small no 
+no no chewy large yes
+no no chewy large yes
+yes no creamy medium yes
+-----
+

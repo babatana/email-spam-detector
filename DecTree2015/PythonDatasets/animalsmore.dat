@@ -1,0 +1,52 @@
+Type 1 2 3 4 5 6 7
+Hair  yes no 
+Feathers yes no 
+Eggs yes no 
+Milk yes no 
+Airborne yes no 
+Aquatic yes no 
+Predator yes no 
+Toothed yes no 
+Backbone yes no 
+Breathes yes no 
+Venomous yes no 
+Fins yes no 
+Legs 0 1 2 3 4 5 6 7 8 many 
+Tail yes no 
+Domestic yes no 
+CatSize+ yes no 
+
+ no  no yes  no  no yes yes yes yes  no  no yes  0 yes  no  no  4
+yes  no  no yes  no  no  no yes yes yes  no  no  4 yes  no yes  1
+ no  no yes  no  no yes yes yes yes  no  no yes  0 yes  no  no  4
+ no yes yes  no yes  no  no  no yes yes  no  no  2 yes yes  no  2
+ no  no yes  no  no yes yes  no  no  no  no  no  4  no  no  no  7
+yes  no  no yes  no  no  no yes yes yes  no  no  4 yes  no yes  1
+ no yes yes  no yes  no  no  no yes yes  no  no  2 yes yes  no  2
+ no  no yes  no  no  no  no  no  no yes  no  no  6  no  no  no  6
+yes  no  no yes  no  no yes yes yes yes  no  no  2  no yes yes  1
+yes  no  no yes  no  no  no yes yes yes  no  no  2  no  no yes  1
+yes  no  no yes  no  no  no yes yes yes  no  no  4 yes yes  no  1
+ no  no yes  no  no yes yes yes yes  no  no yes  0 yes  no  no  4
+ no  no yes  no yes  no yes  no  no yes  no  no  6  no  no  no  6
+yes  no  no yes  no  no yes yes yes yes  no  no  4 yes  no yes  1
+yes  no  no yes  no yes yes yes yes yes  no  no  4 yes  no yes  1
+ no  no yes  no  no yes yes  no  no  no  no  no  6  no  no  no  7
+yes  no  no yes  no  no yes yes yes yes  no  no  4  no  no yes 1
+ no  no yes  no  no yes yes  no  no  no  no  no  8  no  no yes  7
+ no yes yes  no  no  no  no  no yes yes  no  no  2 yes  no yes  2
+ no yes yes  no yes  no  no  no yes yes  no  no  2 yes  no  no  2
+ no  no yes  no  no yes yes yes yes  no  no yes  0 yes  no  no  4
+yes  no  no yes  no  no yes yes yes yes  no  no  4 yes  no yes  1
+yes  no  no yes  no  no yes yes yes yes  no  no  4 yes  no yes  1
+ no yes yes  no  no  no yes  no yes yes  no  no  2 yes  no yes  2
+ no  no yes  no  no yes  no yes yes  no  no yes  0 yes  no  no  4
+ no  no  no  no  no yes yes yes yes  no yes  no  0 yes  no  no  3
+ no yes yes  no yes yes yes  no yes yes  no  no  2 yes  no  no  2
+ no yes yes  no yes  no  no  no yes yes  no  no  2 yes  no  no  2
+ no  no yes  no  no yes yes  no  no  no  no  no  5  no  no  no  7
+ no  no yes  no  no  no  no  no  no yes  no  no  6  no  no  no  6
+ no  no yes  no  no yes yes yes yes  no  no yes  0 yes  no yes  4
+ no yes yes  no yes  no yes  no yes yes  no  no  2 yes  no yes  2
+yes  no  no yes  no  no yes yes yes yes  no  no  4 yes  no yes  1
+-----

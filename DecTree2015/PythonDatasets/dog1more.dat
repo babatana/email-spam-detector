@@ -1,0 +1,23 @@
+Good-dog yes no 
+Color  brown black white grey 
+Size  small medium big 
+Fur    short long 
+Person placid hyper nice mean 
+
+white big short hyper yes
+white medium short mean no
+grey big short mean yes
+brown medium long nice no
+black medium long placid no
+brown big short placid yes
+black medium short nice no
+white big short placid yes
+brown small short hyper no
+black big long mean no
+white big short hyper yes
+black big short placid yes
+grey big short nice yes
+black small short placid no
+-----
+
+
